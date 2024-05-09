@@ -1,4 +1,75 @@
 ﻿using hello.Models;
+using System.Diagnostics;
+
+
+int numero = 5;
+
+for (int i = 0; i <= 10; i++)
+{
+    Console.WriteLine($"{numero} x {i} = {numero * i}");
+}
+
+
+
+//Calculadora calc = new Calculadora();
+
+//calc.Somar(5, 5);
+//calc.Subtrair(10, 80);
+//calc.Multiplicar(20, 2);
+//calc.Divisao(20, 2);
+//calc.Potencia(3, 3);
+//calc.Seno(30);
+//calc.Tangente(30);
+//calc.Coseno(30);
+
+//Console.WriteLine("teste");
+
+
+
+
+
+
+
+
+
+
+//Console.WriteLine("Digite um letra");
+//string letra = Console.ReadLine();
+
+
+//switch (letra)
+//{
+// case "a":
+// case "e":
+// case "i":
+// case "o":
+// case "u":
+
+// Console.WriteLine("Vogal2");
+// break;
+
+//default:
+// Console.WriteLine("Não é vogal");
+// break;
+
+
+//}
+
+
+
+
+
+//if (letra == "a" || letra == "e" || letra == "o" || letra == "u" || letra == "i")
+//{
+//Console.WriteLine("Vogal");
+
+//}
+//else
+//{
+// Console.WriteLine("Não é vogal");
+//}
+
+
 
 //Pessoa p = new Pessoa();
 
@@ -31,15 +102,15 @@
 
 //p.Apresentar();
 
-int quantidadeEmEstoque = 10;
+//int quantidadeEmEstoque = 10;
 
-int quantidadeCompra = 40;
+//int quantidadeCompra = 40;
 
-if (quantidadeEmEstoque >= quantidadeCompra)
-{
-    Console.WriteLine("Venda realizada.");      
-}
-else
-{
-    Console.WriteLine("Desculpe. Não temos a quantodade desejada em estoque");
-}
+//if (quantidadeEmEstoque >= quantidadeCompra)
+//{
+//Console.WriteLine("Venda realizada.");      
+//}
+//else
+//{
+//Console.WriteLine("Desculpe. Não temos a quantodade desejada em estoque");
+//}
